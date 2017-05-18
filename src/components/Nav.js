@@ -2,6 +2,7 @@ import React from 'react'
 import Radium from 'radium'
 import {Row, Col} from 'react-bootstrap'
 import NavLink from '../containers/NavLink.js'
+import CubeContainer from '../containers/CubeContainer.js'
 
 const rowStyle = {
 	textAlign: 'center',
@@ -10,7 +11,8 @@ const rowStyle = {
 }
 
 let Nav = () =>  (
-		<div>
+		<div style={{"position" : "relative"}}>
+			<CubeContainer />
 				<Row style={rowStyle}>
 					<Col xs={4}>
 						<NavLink target='1'>

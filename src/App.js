@@ -11,7 +11,6 @@ const App = () => (
 	<StyleRoot>
 		<Grid> 
 			<Nav />
-			<CubeContainer />
 			<SectionsContainer />
 		</Grid>
 	</StyleRoot>
