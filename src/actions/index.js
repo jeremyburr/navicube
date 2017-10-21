@@ -25,4 +25,4 @@ export function goToSection(target) {
 		 }).then( () => index == target || loop(steps) )
 		})(steps)
   }
-} 
+}
