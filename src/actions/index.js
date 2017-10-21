@@ -26,4 +26,3 @@ export function goToSection(target) {
 		})(steps)
   }
 } 
-
