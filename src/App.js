@@ -9,17 +9,16 @@ import { Grid } from 'react-bootstrap'
 
 const App = () => (
 <div>
-<Stars />	
-	<StyleRoot>
-		<Grid> 
-			<div style={{"position" : "relative"}}>
-				<Nav />
-				<SectionsContainer />
-			</div>
-		</Grid>
-	</StyleRoot>
+ <Stars />	
+ <StyleRoot>
+    <Grid> 
+      <div style={{"position" : "relative"}}>
+        <Nav />
+        <SectionsContainer />
+      </div>
+    </Grid>
+  </StyleRoot>
 </div>
 )
-
 
 export default App;
