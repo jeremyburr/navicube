@@ -3,18 +3,18 @@ import { goToSection } from '../actions/index.js'
 import Link from '../components/Link.js'
 
 const mapStateToProps = (state, ownProps) => ({
-	active: ownProps.target === state.nav.index
+  active: ownProps.target === state.nav.index
 })
 
 const mapDispatchToProps = (dispatch, ownProps) =>  ({
-	onClick: () => {
-		dispatch(goToSection(ownProps.target))
-	}
+  onClick: () => {
+    dispatch(goToSection(ownProps.target))
+  }
 })
 
 const NavLink = connect(
-	mapStateToProps,
-	mapDispatchToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(Link)
 
 export default NavLink
