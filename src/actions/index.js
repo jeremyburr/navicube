@@ -1,12 +1,12 @@
 export const CHANGE_SECTION = 'CHANGE_SECTION'
 function changeSection(index) {
-  return {
-    type: CHANGE_SECTION,
+	return {
+		type: CHANGE_SECTION,
 		index,
-  }
+	}
 } 
 export function goToSection(target) {
-  return (dispatch, getState) => {
+	return (dispatch, getState) => {
 		let index = getState().nav.index;
 		let steps = index - target;
 		if (steps == 0) {
@@ -22,7 +22,8 @@ export function goToSection(target) {
 					timeout+=500
 					resolve()
 				}, timeout)
-		 }).then( () => index == target || loop(steps) )
+			}).then( () => index == target || loop(steps) )
 		})(steps)
-  }
+	}
 }
+
