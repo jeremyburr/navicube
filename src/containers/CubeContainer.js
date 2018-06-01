@@ -7,7 +7,7 @@ const mapStateToProps = (state, ownProps) => ({
 })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({ 
-	resizeCube, 
+  resizeCube, 
 })
 
 const CubeContainer = connect (

@@ -8,17 +8,17 @@ import CubeContainer from './containers/CubeContainer.js'
 import Stars from './components/Stars.js'
 import { Grid } from 'react-bootstrap'
 const appStyle =  {
-	overflowX:  "hidden" 
+  overflowX:  "hidden" 
 }
 
 const App = () => (
   <div>
     <StyleRoot>
-		<CubeContainer />
-    <Stars />	
+    <CubeContainer />
+    <Stars />  
       <Grid> 
-				<Nav />
-				<SectionsContainer />
+        <Nav />
+        <SectionsContainer />
       </Grid>
     </StyleRoot>
   </div>
