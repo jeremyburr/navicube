@@ -1,5 +1,6 @@
 export const CHANGE_SECTION = 'CHANGE_SECTION'
 function changeSection(index) {
+	console.log('change SEction');
   return {
     type: CHANGE_SECTION,
       index,
@@ -24,4 +25,13 @@ export function goToSection(target) {
       }).then( () => index == target || loop(steps) )
      })(steps)
   }
+}
+
+export const RESIZE_CUBE = 'RESIZE_CUBE'
+export function resizeCube(height) {
+	console.log('resize cube NOWWW');
+	return {
+		type: RESIZE_CUBE,
+		height,
+	}
 }
