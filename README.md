@@ -1,6 +1,6 @@
-# NaviCube
-Single-page NodeJS brochure application using the react-redux bindings. Demo at http://psyburr.com.
+# PsyBurr-Redux 
 
-It includes redux-thunk, redux-promise, redux-logger, redux-bootstrap, and Radium to dispatch asynchronous actions, add mobile responsiveness, manage inline styles, and debug. The browser console is configured to print state action objects using the logger. CSS3 transforms is used to build a 3D cube and bring it to life. Webpack is also used.   
+This is an abandoned legacy implementation of my personal website - psyburr.com.  It uses the react-redux bindings to manage application state across sections. I eventually concluded that using Redux was overkill for this task, and possibly hindering my ability to fully understand React. So, I took a step back. I look forward using Redux again in the future - on whatever project that may be.  
 
-Comments and indentation fixes coming soon...
+At time of writing, it compiles and works as expected, but its UI is unfinished. It includes redux-thunk, redux-promise, redux-logger, and Radium to dispatch asynchronous actions, manage inline styles, and debug. The 3D cube is built with CSS3 transforms. Since it was abandoned, it's certainly not an ideal example of clean refactored code. However, I think the way it manages state is more or less sound, and therefore worth archiving.  
+   
